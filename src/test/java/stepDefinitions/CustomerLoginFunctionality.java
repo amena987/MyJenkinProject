@@ -44,6 +44,7 @@ public class CustomerLoginFunctionality extends Base {
         String welcomeMsg = getText( CustomerHomePage.labelWelcomeMsg );
         assertEquals( "Welcome David", welcomeMsg);
         System.out.println(welcomeMsg);
+        System.out.println(welcomeMsg+" ok");
     }
 
 
