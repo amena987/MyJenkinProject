@@ -9,7 +9,7 @@ Feature: Employee Login Functionality
     Given I am in Landing Page
     Then I click on Login Menu
     And I click on Employee Login Menu
-    And I Enter User Id
-    And I enter Password
+    And I Enter employee User Id
+    And I enter employee Password
     When I click on Login button
     Then Verify I am in Employee Home Page
